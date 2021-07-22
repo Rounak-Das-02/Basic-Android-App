@@ -44,4 +44,10 @@ class MainActivity : AppCompatActivity() {
         }
         startActivity(zooIntent)
     }
+
+    fun getNews(view: View){
+        val newsIntent = Intent(this, GetNews::class.java).apply{
+        }
+        startActivity(newsIntent)
+    }
 }
